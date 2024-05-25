@@ -1,0 +1,58 @@
+/* Agrega esta regla de estilo para cambiar la fuente a cursiva */
+body {
+    font-family: 'Helvetica', sans-serif; /* Cambia 'Helvetica' por la fuente que desees utilizar */
+}
+
+/* Opcional: Si deseas aplicar la fuente cursiva solo a ciertos elementos, puedes agregar una regla más específica */
+.table th,
+.table td,
+.btn {
+    font-family: 'Helvetica', sans-serif; /* Cambia 'Helvetica' por la fuente que desees utilizar */
+}
+/* Estilo para los elementos con ID específicos */
+#elemento1 {
+    font-style: italic;
+    /* Otros estilos que desees aplicar */
+}
+
+#elemento2 {
+    font-style: italic;
+    /* Otros estilos que desees aplicar */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    /* Otros estilos que desees aplicar al cuerpo */
+}
+/* Estilos para el encabezado "Inicio" y "Username" */
+.navbar-brand {
+    color: white; /* Cambia el color del texto del enlace */
+}
+
+.navbar-dark {
+    background-color: #4bd066; /* Cambia el color de fondo de la barra de navegación */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: white; /* Cambia el color del icono del botón de hamburguesa */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white; /* Cambia el color del texto de los enlaces en el menú desplegable */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cambia el color del texto de los enlaces en el menú desplegable al pasar el ratón por encima */
+}
+
+/* Estilos para el botón de eliminar */
+.btn-danger {
+    background-color: #dc3545; /* Cambia el color de fondo del botón */
+    border-color: #dc3545; /* Cambia el color del borde del botón */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Cambia el color de fondo del botón al pasar el ratón por encima */
+    border-color: #bd2130; /* Cambia el color del borde del botón al pasar el ratón por encima */
+}
